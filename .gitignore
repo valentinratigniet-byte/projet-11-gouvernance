@@ -1,0 +1,5 @@
+# Secrets
+.env
+*.json.key
+
+# On versionne le snapshot dbt-docs (index/manifest/catalog) volontairement.
