@@ -8,6 +8,20 @@
 
 ## 🏛️ Les 6 piliers
 
+```mermaid
+flowchart LR
+    subgraph Plateforme["Plateforme (Projets 07 → 10)"]
+        RAW[("raw")] --> STG["staging"] --> MARTS["marts"]
+    end
+    MARTS --> BI["Power BI (09)<br/>RLS"]
+    GOV["Gouvernance (11)"] -.->|documente| RAW
+    GOV -.->|documente| STG
+    GOV -.->|documente + 28 tests| MARTS
+
+    style GOV fill:#E4A93C,color:#1a1a1a
+    style MARTS fill:#137A8B,color:#fff
+```
+
 | Pilier | Ce que ça garantit | Document |
 |---|---|---|
 | **Dictionnaire de données** | chaque table/champ a un sens, un owner, une règle | [docs/dictionnaire-donnees.md](docs/dictionnaire-donnees.md) |
