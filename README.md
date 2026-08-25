@@ -34,7 +34,11 @@ flowchart LR
 ## ✅ Ce qui est réellement enforced (pas que du document)
 
 - **28 tests de qualité dbt** exécutés sur le périmètre 07/10 → `PASS=28, ERROR=0`
-  (unicité, complétude, intégrité référentielle, validité de domaine).
+  (unicité, complétude, intégrité référentielle, validité de domaine). Ce repo ne
+  contient pas de code exécutable — les 28 tests tournent réellement dans le
+  pipeline du [Projet 10](https://github.com/valentinratigniet-byte/projet-10-pipeline-elt),
+  vérifiable en direct :
+  [![CI](https://github.com/valentinratigniet-byte/projet-10-pipeline-elt/actions/workflows/ci.yml/badge.svg)](https://github.com/valentinratigniet-byte/projet-10-pipeline-elt/actions/workflows/ci.yml)
 - **Lignage généré par dbt** (à partir du code `ref()`/`source()`, donc exact par
   construction) — instantané navigable dans [`dbt-docs/`](dbt-docs/) (`index.html`).
 - **RLS** en place sur le dashboard (projet 09) : accès restreint par pays.
