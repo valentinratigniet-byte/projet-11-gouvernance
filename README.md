@@ -66,5 +66,5 @@ python -m dbt.cli.main docs generate && python -m dbt.cli.main docs serve
 
 ---
 
-*Projet 11 du [Portfolio Data](../). Gouverne la plateforme construite aux projets
+*Projet 11 du [Portfolio Data](https://github.com/valentinratigniet-byte). Gouverne la plateforme construite aux projets
 07 (base), 08 (SQL), 09 (dashboard) et 10 (pipeline).*
