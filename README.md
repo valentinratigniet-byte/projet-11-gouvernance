@@ -6,6 +6,8 @@
 > (base PostgreSQL + pipeline ELT + dashboard) : documentation, qualité automatisée,
 > lignage, conventions, propriété et SLA.
 
+🗺️ **[Schéma du dépôt (GitDiagram)](https://gitdiagram.com/valentinratigniet-byte/projet-11-gouvernance)** : vue d'ensemble générée automatiquement à partir du code.
+
 ## 🏛️ Les 6 piliers
 
 ```mermaid
