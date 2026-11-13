@@ -24,10 +24,9 @@ Done. PASS=28  WARN=0  ERROR=0  SKIP=0  TOTAL=28
 | Contrôle | Nb tests | Résultat |
 |---|---|---|
 | Unicité des clés (dims + staging) | 6 | ✅ PASS |
-| Complétude (`not_null`) | 10 | ✅ PASS |
-| Intégrité référentielle | 7 | ✅ PASS |
+| Complétude (`not_null`) | 15 | ✅ PASS |
+| Intégrité référentielle (`relationships`) | 6 | ✅ PASS |
 | Validité de domaine (`accepted_values` status) | 1 | ✅ PASS |
-| Autres (relations staging) | 4 | ✅ PASS |
 | **Total** | **28** | **✅ 100 %** |
 
 ## Rejouer les contrôles
